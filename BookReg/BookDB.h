@@ -1,6 +1,4 @@
 #pragma once
-#ifndef BOOK_DATABASE_H
-#define BOOK_DATABASE_H
 
 #include "Book.h"
 
@@ -24,5 +22,3 @@ namespace bookregistry {
         Book* getBooks() const;
     };
 }
-
-#endif

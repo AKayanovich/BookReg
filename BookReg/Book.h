@@ -1,6 +1,4 @@
 #pragma once
-#ifndef BOOK_H
-#define BOOK_H
 
 #include <string>
 #include <iostream>
@@ -33,5 +31,3 @@ namespace bookregistry {
         void addBook();
     };
 }
-
-#endif

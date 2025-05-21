@@ -1,6 +1,5 @@
 #include <iostream>
 #include <ctime>
-#include <clocale>
 #include <string>
 #include "BookDB.h"
 
@@ -19,7 +18,6 @@ void displayMenu() {
 }
 
 int main() {
-    setlocale(LC_ALL, "English");
     srand((time(NULL)));
 
     BookDB database(15);
